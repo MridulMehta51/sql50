@@ -7,10 +7,7 @@ ORDER BY 1 ASC;
 
 
 
-
-
-
-https://leetcode.com/problems/find-customer-referee
+584 - Find Customer Referee
 # Write your MySQL query statement below
 SELECT name from Customer
 WHERE referee_id !=2 or referee_id is NULL;
