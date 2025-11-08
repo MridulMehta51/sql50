@@ -35,7 +35,7 @@ AND author_id = viewer_id
 ORDER BY author_id
 ```
 
-1683. Invalid Tweets(https://leetcode.com/problems/invalid-tweets/)
+[1683. Invalid Tweets](https://leetcode.com/problems/invalid-tweets/)
 ```sql
 SELECT tweet_id
 FROM Tweets
