@@ -2,8 +2,8 @@
 
 
 
-#1757. Recyclable and Low Fat Products
-# Write your MySQL query statement below
+**#1757. Recyclable and Low Fat Products**
+
 SELECT 
     product_id 
 from    
