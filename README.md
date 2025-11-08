@@ -40,3 +40,14 @@ ORDER BY author_id
 SELECT tweet_id
 FROM Tweets
 where CHAR_length(content)>15;
+
+[1378. Replace Employee ID With The Unique Identifier](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/)
+```sql
+SELECT
+    e.name,
+    uni.unique_id
+FROM
+    Employees AS e
+LEFT JOIN
+    EmployeeUNI AS uni ON e.id = uni.id;
+
